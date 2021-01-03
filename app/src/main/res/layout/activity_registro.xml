@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context=".Registro">
+
+    <Button
+        android:id="@+id/BTNregistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOVO REGISTRO"
+        android:onClick="BTNregistro"
+        android:textColor="@color/black"
+        android:background="@color/gray_bold"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="50px"
+        android:layout_marginTop="100px"/>
+
+    <TextView
+        android:id="@+id/TVultregistros"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Últimos registros"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="30px"
+        android:layout_marginRight="50px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

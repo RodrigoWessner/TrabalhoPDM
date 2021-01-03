@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_width="3000dp"
+        android:layout_marginBottom="40px"
+        android:layout_marginTop="50px"
+        android:layout_gravity="center"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TVemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="100px"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/ETemail"
+        android:textColor="@color/black"
+        android:backgroundTintMode="screen"
+        android:textSize="20dp"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="50px"
+        android:layout_marginTop="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/TVsenha"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha"/>
+
+    <EditText
+        android:id="@+id/ETsenha"
+        android:textColor="@color/black"
+        android:backgroundTintMode="screen"
+        android:textSize="20dp"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="50px"
+        android:layout_marginTop="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/BTNsignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:onClick="BTNsignin"
+        android:textColor="@color/black"
+        android:background="@color/gray"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="50px"
+        android:layout_marginTop="30px"/>
+
+    <Button
+        android:id="@+id/BTNcadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR"
+        android:onClick="BTNcadastrar"
+        android:background="@color/gray"
+        android:textColor="@color/purple_500"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="50px"
+        android:layout_marginTop="30px"/>
+    </LinearLayout>
+</LinearLayout>

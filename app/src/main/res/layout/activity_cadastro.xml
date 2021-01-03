@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray"
+        android:orientation="vertical"
+        tools:context=".Cadastro">
+
+    <TextView
+        android:id="@+id/TVnome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="100px"
+        android:text="Nome"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/ETnome"
+        android:textColor="@color/black"
+        android:backgroundTintMode="screen"
+        android:textSize="20dp"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="50px"
+        android:layout_marginTop="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/TVemail"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"/>
+
+    <EditText
+        android:id="@+id/ETemailcad"
+        android:textColor="@color/black"
+        android:backgroundTintMode="screen"
+        android:textSize="20dp"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="50px"
+        android:layout_marginTop="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/TVsenha"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha"/>
+
+    <EditText
+        android:id="@+id/ETsenhacad"
+        android:textColor="@color/black"
+        android:backgroundTintMode="screen"
+        android:textSize="20dp"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="50px"
+        android:layout_marginTop="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/BTNcadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR"
+        android:onClick="BTNcadastro"
+        android:background="@color/gray_bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="50px"
+        android:layout_marginTop="30px"/>
+</LinearLayout>

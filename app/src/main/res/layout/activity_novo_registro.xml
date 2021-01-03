@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context=".NovoRegistro">
+
+    <TextView
+        android:id="@+id/TVlocal"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Local"/>
+
+    <EditText
+        android:id="@+id/ETlocal"
+        android:textColor="@color/black"
+        android:backgroundTintMode="screen"
+        android:textSize="20dp"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="50px"
+        android:layout_marginTop="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/BTNrastrear"
+        android:onClick="btnIniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INICIAR RASTREAMENTO"
+        android:background="@color/gray_bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="50px"
+        android:layout_marginTop="30px"/>
+
+    <Button
+        android:id="@+id/BTNrastrearfim"
+        android:onClick="btnfim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FINALIZAR RASTREAMENTO"
+        android:background="#FF0000"
+        android:textColor="@color/black"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="50px"
+        android:layout_marginTop="30px"/>
+
+    <EditText
+        android:id="@+id/ETlocalatlon"
+        android:textColor="@color/material_on_surface_emphasis_high_type"
+        android:backgroundTintMode="src_in"
+        android:textSize="20dp"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="50px"
+        android:layout_marginTop="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
